@@ -3,6 +3,9 @@
     "airbnb",
     "plugin:meteor/recommended"
   ],
+  "globals": {
+    "window": true
+  },
   "parser": "babel-eslint",
   "plugins": [
     "meteor"
@@ -10,6 +13,7 @@
   "rules": {
     "import/extensions": [2, { "js": "never" }],
     "import/no-extraneous-dependencies": [0],
+    "react/jsx-filename-extension": [0],
     "react/require-extension": [0]
   },
   "settings": {
